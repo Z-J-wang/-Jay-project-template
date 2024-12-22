@@ -1,6 +1,7 @@
 {
   "name": "project-template",
   "version": "0.0.0",
+  "description": "一个 Vue3 项目模板",
   "private": true,
   "type": "module",
   "scripts": {
@@ -29,5 +30,15 @@
     "vite": "^6.0.1",
     "vite-plugin-vue-devtools": "^7.6.5",
     "vitest": "^2.1.5"
-  }
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "browserslist": [
+    "default",
+    "not dead",
+    "not op_mini all",
+    "not ie all"
+  ]
 }
