@@ -1,5 +1,7 @@
 # prettier ignore
 # 此文件得忽略规则应该与 eslint 和 Stylelint 的忽略规则一致
-**/dist/**
-**/dist-ssr/**
-**/coverage/**
+node_modules/
+dist
+public
+dist-ssr
+coverage
