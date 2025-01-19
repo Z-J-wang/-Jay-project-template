@@ -9,8 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
-    "lint": "eslint .",
+    "lint:eslint": "eslint .",
     "lint:stylelint": "stylelint \"{src,test}/**/*.{vue,css,less,html,xml}\"",
+    "lint": "yarn lint:eslint && yarn lint:stylelint",
     "format": "eslint . --fix && stylelint \"{src,test}/**/*.{vue,css,less,html,xml}\" --fix",
     "prepare": "husky"
   },
